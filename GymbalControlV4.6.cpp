@@ -1,4 +1,4 @@
-#include <Arduino.h>
+#include <Arduino.h> // if using platformio
 
 #include <Wire.h>
 #include <stdint.h>
