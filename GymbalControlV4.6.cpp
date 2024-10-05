@@ -307,17 +307,3 @@ float mapFloat(float x, float inp_min, float inp_max, float out_min, float out_m
     const float delta = x - inp_min;
     return (delta * range_out) / range_inp + out_min;
 }
-
-
-/*
-! *4 build diz que ´Serial.print("..." + String(var))´ é possível sem ´String()´
-  ! testar (não funciona no wokwi)
-
-! Fazer dualCore (mover servo em um e cálculos no outro)
-
-* derivada não tem mínimo e máximo por não se saber um mínimo ou máximo da velocidade
-
-* servos estão girando no sentido anti-horário, por isso os valores dos ângulos estão "invertidos"
-
-# talvez map2() demore mais para processar, float demore mais que int
-*/
